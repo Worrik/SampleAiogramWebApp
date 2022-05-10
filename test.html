@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+    <title>Our Funky HTML Page</title>
+    <meta name="description" content="Our first page">
+    <meta name="keywords" content="html tutorial template">
+</head>
+<body>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <div id="data"></div>
+    <script>
+        let web_app = window.Telegram.WebApp
+        document.getElementById('data').innerText = JSON.stringify(web_app)
+    </script>
+</body>
+</html>
